@@ -1,0 +1,11 @@
+# ignore generated folders
+x64/
+x86/
+Debug/
+Release/
+
+# vscode config
+.vs/
+
+# log
+*log*

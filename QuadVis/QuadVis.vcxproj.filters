@@ -1,0 +1,170 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="源文件\util">
+      <UniqueIdentifier>{878a5735-2b48-4aca-a21b-73833581155a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\render">
+      <UniqueIdentifier>{80715041-627d-46e5-a37a-01a6831e8981}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\scene">
+      <UniqueIdentifier>{2bc264e5-f73c-4373-93ae-8a61df5a4752}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\divider">
+      <UniqueIdentifier>{bd807cc5-1002-4b2c-af66-aa99c1b5d42f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\geometry">
+      <UniqueIdentifier>{8f1ae2d8-0a5a-40df-bed2-81062337a2d6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\util\json">
+      <UniqueIdentifier>{54a573ba-01f3-4ea6-b9f3-104285769ac4}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\main.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\util\cGeoUtil.cpp">
+      <Filter>源文件\util</Filter>
+    </ClCompile>
+    <ClCompile Include="src\util\cMathUtil.cpp">
+      <Filter>源文件\util</Filter>
+    </ClCompile>
+    <ClCompile Include="src\render\cBaseRender.cpp">
+      <Filter>源文件\render</Filter>
+    </ClCompile>
+    <ClCompile Include="src\render\cBaseShader.cpp">
+      <Filter>源文件\render</Filter>
+    </ClCompile>
+    <ClCompile Include="src\scene\cDrawScene.cpp">
+      <Filter>源文件\scene</Filter>
+    </ClCompile>
+    <ClCompile Include="src\scene\cScene.cpp">
+      <Filter>源文件\scene</Filter>
+    </ClCompile>
+    <ClCompile Include="src\geometry\cBaseMesh.cpp">
+      <Filter>源文件\geometry</Filter>
+    </ClCompile>
+    <ClCompile Include="src\render\cFocusCamera.cpp">
+      <Filter>源文件\render</Filter>
+    </ClCompile>
+    <ClCompile Include="src\render\cPolyRender.cpp">
+      <Filter>源文件\render</Filter>
+    </ClCompile>
+    <ClCompile Include="src\util\json\json_reader.cpp">
+      <Filter>源文件\util\json</Filter>
+    </ClCompile>
+    <ClCompile Include="src\util\json\json_value.cpp">
+      <Filter>源文件\util\json</Filter>
+    </ClCompile>
+    <ClCompile Include="src\util\json\json_writer.cpp">
+      <Filter>源文件\util\json</Filter>
+    </ClCompile>
+    <ClCompile Include="src\divider\cQuadViser.cpp">
+      <Filter>源文件\divider</Filter>
+    </ClCompile>
+    <ClCompile Include="src\geometry\cMeshLoader.cpp">
+      <Filter>源文件\geometry</Filter>
+    </ClCompile>
+    <ClCompile Include="src\util\cGlmUtil.cpp">
+      <Filter>源文件\util</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="src\util\cGeoUtil.hpp">
+      <Filter>源文件\util</Filter>
+    </ClInclude>
+    <ClInclude Include="src\util\cMathUtil.hpp">
+      <Filter>源文件\util</Filter>
+    </ClInclude>
+    <ClInclude Include="src\render\BuildRender.hpp">
+      <Filter>源文件\render</Filter>
+    </ClInclude>
+    <ClInclude Include="src\render\cBaseRender.hpp">
+      <Filter>源文件\render</Filter>
+    </ClInclude>
+    <ClInclude Include="src\render\cBaseShader.hpp">
+      <Filter>源文件\render</Filter>
+    </ClInclude>
+    <ClInclude Include="src\scene\BuildScene.hpp">
+      <Filter>源文件\scene</Filter>
+    </ClInclude>
+    <ClInclude Include="src\scene\cDrawScene.hpp">
+      <Filter>源文件\scene</Filter>
+    </ClInclude>
+    <ClInclude Include="src\scene\cScene.hpp">
+      <Filter>源文件\scene</Filter>
+    </ClInclude>
+    <ClInclude Include="src\geometry\cBaseMesh.h">
+      <Filter>源文件\geometry</Filter>
+    </ClInclude>
+    <ClInclude Include="src\render\cFocusCamera.h">
+      <Filter>源文件\render</Filter>
+    </ClInclude>
+    <ClInclude Include="src\render\cPolyRender.hpp">
+      <Filter>源文件\render</Filter>
+    </ClInclude>
+    <ClInclude Include="src\util\json\allocator.h">
+      <Filter>源文件\util\json</Filter>
+    </ClInclude>
+    <ClInclude Include="src\util\json\assertions.h">
+      <Filter>源文件\util\json</Filter>
+    </ClInclude>
+    <ClInclude Include="src\util\json\autolink.h">
+      <Filter>源文件\util\json</Filter>
+    </ClInclude>
+    <ClInclude Include="src\util\json\config.h">
+      <Filter>源文件\util\json</Filter>
+    </ClInclude>
+    <ClInclude Include="src\util\json\features.h">
+      <Filter>源文件\util\json</Filter>
+    </ClInclude>
+    <ClInclude Include="src\util\json\forwards.h">
+      <Filter>源文件\util\json</Filter>
+    </ClInclude>
+    <ClInclude Include="src\util\json\json.h">
+      <Filter>源文件\util\json</Filter>
+    </ClInclude>
+    <ClInclude Include="src\util\json\json_tool.h">
+      <Filter>源文件\util\json</Filter>
+    </ClInclude>
+    <ClInclude Include="src\util\json\reader.h">
+      <Filter>源文件\util\json</Filter>
+    </ClInclude>
+    <ClInclude Include="src\util\json\value.h">
+      <Filter>源文件\util\json</Filter>
+    </ClInclude>
+    <ClInclude Include="src\util\json\version.h">
+      <Filter>源文件\util\json</Filter>
+    </ClInclude>
+    <ClInclude Include="src\util\json\writer.h">
+      <Filter>源文件\util\json</Filter>
+    </ClInclude>
+    <ClInclude Include="src\divider\cQuadViser.h">
+      <Filter>源文件\divider</Filter>
+    </ClInclude>
+    <ClInclude Include="src\geometry\cMeshLoader.h">
+      <Filter>源文件\geometry</Filter>
+    </ClInclude>
+    <ClInclude Include="src\util\cGlmUtil.hpp">
+      <Filter>源文件\util</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="src\util\json\json_valueiterator.inl">
+      <Filter>源文件\util\json</Filter>
+    </None>
+  </ItemGroup>
+</Project>
